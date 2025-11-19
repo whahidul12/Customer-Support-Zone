@@ -1,0 +1,110 @@
+[
+    {
+        "id": "TKT-001",
+        "title": "Login Issues with Mobile App",
+        "description": "Customer unable to login to mobile application. Getting 'Invalid credentials' error despite using correct username and password.",
+        "customer": "Sarah Johnson",
+        "priority": "HIGH PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-20"
+    },
+    {
+        "id": "TKT-002",
+        "title": "Payment Processing Error",
+        "description": "Transaction failed during checkout process. Customer charged but order not confirmed. Payment gateway returned error code 4001.",
+        "customer": "Michael Chen",
+        "priority": "HIGH PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-21"
+    },
+    {
+        "id": "TKT-003",
+        "title": "Feature Request: Dark Mode",
+        "description": "Customer requesting dark mode theme for better accessibility and reduced eye strain during nighttime usage.",
+        "customer": "Emma Rodriguez",
+        "priority": "LOW PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-18"
+    },
+    {
+        "id": "TKT-004",
+        "title": "Email Notifications Not Working",
+        "description": "Customer reports not receiving order confirmation emails. Email address verified and appears correct in system.",
+        "customer": "David Williams",
+        "priority": "MEDIUM PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-15"
+    },
+    {
+        "id": "TKT-005",
+        "title": "Profile Picture Upload Fails",
+        "description": "Unable to upload profile picture. System shows 'File too large' error even for images under 2MB. Tried multiple formats (JPG, PNG).",
+        "customer": "Lisa Thompson",
+        "priority": "MEDIUM PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-22"
+    },
+    {
+        "id": "TKT-006",
+        "title": "Data Sync Issues Between Devices",
+        "description": "User data not syncing properly between desktop and mobile versions. Changes made on one device not reflecting on the other.",
+        "customer": "James Anderson",
+        "priority": "HIGH PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-19"
+    },
+    {
+        "id": "TKT-007",
+        "title": "Billing Discrepancy Question",
+        "description": "Customer questioning charges on monthly invoice. Appears to be charged for premium features not subscribed to.",
+        "customer": "Maria Garcia",
+        "priority": "MEDIUM PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-17"
+    },
+    {
+        "id": "TKT-008",
+        "title": "Account Deletion Request",
+        "description": "Customer wants to permanently delete account and all associated data. Requesting confirmation of GDPR compliance process.",
+        "customer": "Robert Brown",
+        "priority": "LOW PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-23"
+    },
+    {
+        "id": "TKT-009",
+        "title": "API Rate Limit Exceeded",
+        "description": "Developer customer hitting API rate limits unexpectedly. Requests per minute seem within documented limits but getting 429 errors.",
+        "customer": "Alex Kumar",
+        "priority": "LOW PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-24"
+    },
+    {
+        "id": "TKT-010",
+        "title": "Password Reset Not Working",
+        "description": "Password reset emails not being delivered. Customer checked spam folder and tried multiple email addresses.",
+        "customer": "Jennifer Lee",
+        "priority": "HIGH PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-16"
+    },
+    {
+        "id": "TKT-011",
+        "title": "Search Function Returns No Results",
+        "description": "Search functionality appears broken. No results returned for any search terms, including items that definitely exist in the system.",
+        "customer": "Thomas Wilson",
+        "priority": "MEDIUM PRIORITY",
+        "status": "in-progress",
+        "createdAt": "2024-09-21"
+    },
+    {
+        "id": "TKT-012",
+        "title": "Export Data Feature Not Responding",
+        "description": "Data export button unresponsive when clicked. Customer needs to export transaction history for tax purposes. No error message displayed.",
+        "customer": "Rachel Davis",
+        "priority": "HIGH PRIORITY",
+        "status": "open",
+        "createdAt": "2024-09-25"
+    }
+]
