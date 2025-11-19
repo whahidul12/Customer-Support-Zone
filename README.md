@@ -1,121 +1,185 @@
-### What is JSX, and why is it used?
+# Customer Support Zone 🛎️
 
-Ans: jsx full form is javasccript xml. its allow us to write html like code in javascript but its not acually html. its huge help to write html code without leaving javascript file.
-
-### What is the difference between State and Props?
-
-Ans: props used to take an object or variable or array and pass it perents componenets to childs components.it cant be change.
-
-on the other hand state a kind of variable thats holds a perticuler data that can be change when its Set() called.
-
-### What is the useState hook, and how does it work?
-
-Ans: useState hook give two things. one is a state variable and second one is a funtion that takes a agrument that change the state's value.
-it use when we need to change same thing in multiple places in website.
-
-### How can you share state between components in React?
-
-Ans: Lifting state up method. its the only thing i know.
-
-### How is event handling done in React?
-
-Ans: by onClick Attribute. here we declare a funtion or just give the referece of it so when some click or intract the funtion started to exicute.
-
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-007
-
-### 📅 Deadline For 60 marks: 27th September, 2025 (11:59 pm ⏱️)
-
-### 📅 No Deadline For 50 marks
-
-### 📅 Deadline For 30 marks: Any time after 27th September , 2025 (11:59pm⏱️).
+Customer Support Zone is a full-stack customer support ticket management platform. Users can create tickets, track support responses, and manage issues efficiently. Admins or support agents can view, reply, update, and close tickets from a centralized dashboard.
 
 ---
 
-# Private Repository: https://classroom.github.com/a/VVl8VKya
+## 🚀 Live Demo
 
-# Customer Support Zone
-
-This project is a React-based **Customer Support Zone** designed to display customer tickets, track progress, and mark them as resolved. It follows a Figma design and includes additional features like status management, responsiveness, and toast notifications using **React-Toastify**.
-
----
-
-## 📌 Features & Requirements
-
-### ✅ Navbar
-
-- Website name/logo on the **left**.
-- Menu items and **New Ticket** button on the **right**.
-
-### ✅ Banner
-
-- Banner section designed according to Figma.
-- Shows a **linear gradient** background.
-- Displays ticket statistics:
-
-  - **In Progress Count**
-  - **Resolved Count** (default = 0).
-
-### ✅ Main Section
-
-1. **JSON Data **
-
-   - Created **10–15 tickets** with the following properties:
-
-     - `id`, `title`, `description`, `customer`, `priority`, `status`, `createdAt`.
-
-2. **Ticket Cards**
-
-   - Display all ticket information in a **card layout**.
-   - Cards arranged in a **2-column grid** (left side).
-
-3. **Task Status Section**
-
-   - Clicking a card adds it to the **Task Status Section** (right side) and shows alert. It will increase the count of in-progress in banner
-   - Task Status shows:
-
-     - Ticket Title
-     - **Complete Button**
-
-   - Clicking **Complete Button**:
-
-     - show alert
-
-### ✅ Footer
-
-- Designed according to Figma.
-
-### ✅ Responsiveness
-
-- The entire website is **responsive** for mobile devices.
-
-### ✅ Readme:
-
-Create a README file to answer the following question-
-
-- What is JSX, and why is it used?
-- What is the difference between State and Props?
-- What is the useState hook, and how does it work?
-- How can you share state between components in React?
-- How is event handling done in React?
+*(Add the deployed website link here if available)*  
+**Live URL:** https://your-live-site-url.com
 
 ---
 
-###
+## ✨ Features
 
-## 📌 Challenge Requirements
-
-### 🔔 React-Toastify
-
-- Used **React-Toastify** to replace all alerts with stylish toast notifications.
-
-### 📝 Task Completion Logic
-
-Clicking **Complete Button**:
-
-1. It is **removed from Task Status**.
-2. It is added to the **Resolved List**.
-3. The **In Progress count decreases**.
-4. The **Resolved count increases**.
-5. It is removed from the **Customer Tickets listt**.
+- 📝 Create support tickets  
+- 📂 Category & priority-based ticket system  
+- 👤 User login & ticket history  
+- 🎧 Support agent dashboard  
+- 🔍 Search, filter & sort tickets  
+- 🔐 Role-based access control  
+- ⚡ Fast backend API with Express  
+- 📱 Fully responsive UI  
 
 ---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React.js  
+- React Router  
+- Axios  
+- Tailwind CSS  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB / Mongoose  
+- JWT Authentication  
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally.
+
+---
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/whahidul12/Customer-Support-Zone.git
+cd Customer-Support-Zone
+```
+
+---
+
+### **2. Install Dependencies**
+
+If it's a single-repo structure:
+
+```bash
+npm install
+```
+
+If the project has separate folders (`client/` and `server/`):
+
+```bash
+cd server
+npm install
+
+cd ../client
+npm install
+```
+
+---
+
+### **3. Environment Variables**
+
+Create a `.env` file inside the **server** folder with:
+
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+If your frontend needs API base URL, add a `.env` inside **client**:
+
+```
+REACT_APP_API_URL=http://localhost:5000
+```
+
+---
+
+### **4. Start the Project**
+
+#### If separate client & server:
+
+Start backend:
+
+```bash
+cd server
+npm run dev
+```
+
+Start frontend:
+
+```bash
+cd ../client
+npm start
+```
+
+#### If single command:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Customer-Support-Zone/
+│
+├── client/                 # Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── api/
+│   │   └── App.jsx
+│   └── public/
+│
+├── server/                 # Backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── utils/
+│   └── server.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 📚 Learning Outcomes
+
+- Building scalable API routes  
+- Implementing JWT authentication  
+- Managing user roles & permissions  
+- Creating CRUD-based ticket system  
+- Designing dashboard UI  
+- Structuring client–server projects  
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository  
+2. Create a branch: `git checkout -b feature-name`  
+3. Commit changes: `git commit -m "Add new feature"`  
+4. Push: `git push origin feature-name`  
+5. Open a Pull Request  
+
+---
+
+## 👤 Author
+
+**Whahidul Islam**  
+📧 Email: `whahid.cnits@email.com`  
+🌐 GitHub: https://github.com/whahidul12  
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**.
+
+---
+
+Thank you for using **Customer Support Zone**! 🙏  
+Feel free to contribute, suggest improvements, or star the repo.
