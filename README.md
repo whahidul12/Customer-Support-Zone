@@ -5,9 +5,7 @@ Customer Support Zone is a full-stack customer support ticket management platfor
 ---
 
 ## 🚀 Live Demo
-
-*(Add the deployed website link here if available)*  
-**Live URL:** https://your-live-site-url.com
+**Live URL:** https://customer-support-zone-ph12.netlify.app/
 
 ---
 
